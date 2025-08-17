@@ -1,72 +1,234 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cheers Bro - Geneva Darts League</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Cheers Bro & Bros'n'Darts.</title>
+    <link href="assets/css/styles.css" rel="stylesheet">
 </head>
-<body class="dual-team">
-    <div class="container">
-        <nav class="nav-header">
-            <a href="index.html">
-                <img src="assets/img/home.svg" alt="Home" class="home-icon">
-            </a>
-            <a href="cheers-bro.html" class="nav-item">Cheers Bro</a>
-            <a href="bros-n-darts.html" class="nav-item">Bros'N'Darts</a>
-        </nav>
-
-        <header class="header">
-            <div class="league-header">Nous jouons dans</div>
-            <h1 class="league-title"><a href="https://www.genevadarts.ch" target="_blank">Geneva Darts League</a></h1>
-        </header>
-
-        <main class="main-content">
-            <section class="left-section">
-                <div class="cheers-logo-container">
-                    <img src="assets/img/cheers-bro-logo-no-bg.png" alt="Cheers Bro Logo" class="cheers-logo">
-                </div>
-                
-                <div class="team-info">
-                    <p class="team-tagline">
-                        Deux équipes, Une passion commune:<br>
-                        Le championnat <a href="#" class="championship-link">genevois de fléchettes</a>.
-                    </p>
-                </div>
-            </section>
-
-            <section class="right-section">
-                <div class="bros-logo-container">
-                    <img src="assets/img/logo brosndarts 3.png" alt="Bros'N'Darts Logo" class="bros-logo">
-                </div>
-            </section>
-        </main>
-
-        <section class="content-section">
-            <h2 class="section-title">Un club, deux esprits, une même ambition</h2>
-            
-            <p class="section-content">
-                Qu'il s'agisse de l'expérience des Cheers'Bro ou de la fraîcheur des Bros'n'darts, notre club vise l'excellence tout en cultivant un esprit d'équipe fort et fédérateur. Ensemble, nous lançons chaque fléchette avec fierté, détermination et passion.
-            </p>
-
-            <div class="gdl-section">
-                <h3 class="gdl-title">Le championnat GDL</h3>
-                <p class="gdl-description">
-                    Les deux équipes évoluent dans la GDL (<a href="#" class="gdl-link">Geneva Darts League</a>), une compétition locale riche en convivialité, en défis, et en esprit sportif. Ce championnat reflète l'essence même du jeu de fléchettes : précision, stratégie, fair-play et camaraderie.
-                </p>
-            </div>
-        </section>
-
-        <section class="sponsors-section">
-            <h2 class="sponsors-title">Soutenu par</h2>
-            <div class="sponsors-grid dual-team">
-                <img src="assets/img/sponsors/mr-pickwicks.png" alt="Mr. Pickwick Pub" class="sponsor-logo">
-                <img src="assets/img/sponsors/crowned-eagle-logo.png" alt="Crowned Eagle" class="sponsor-logo">
-                <img src="assets/img/sponsors/chefs-de-secteurs-logo.png" alt="Chefs de Secteurs" class="sponsor-logo">
-                <img src="assets/img/sponsors/ai-concept-logo.png" alt="AI Concept" class="sponsor-logo">
-                <img src="assets/img/sponsors/mtnr-concept-logo.png" alt="MTNR Concept" class="sponsor-logo">
-            </div>
-        </section>
+<body>
+    <div class="header">
+        <div class="logo">
+            Cheers Bro <span class="text-accent">&</span> Bros'n'Darts<span class="text-accent">.</span>
+        </div>
+        
     </div>
+
+    <div class="sidebar">
+        <a href="https://www.genevadarts.ch" target="_blank">Geneva Darts League</a>
+        <a href="#partners">Partenaires</a>
+    </div>
+
+    <div id="home" class="container">
+        <div class="left-panel">
+            <h1 class="title">Deux équipes, Une passion commune<span class="text-accent">.</span></h1>
+            <div class="xxxv">Le championnat <a href="https://www.genevadarts.ch" target="_blank">genevois de fléchettes</a>.</div>
+            <p class="description">
+                Qu’il s’agisse de l’expérience des Cheers'Bro ou de la fraîcheur des Bros'n'darts , notre club vise l’excellence tout en cultivant un esprit d’équipe fort et fédérateur. Ensemble, nous lançons chaque fléchette avec fierté, détermination et passion.
+            </p>
+        </div>
+
+        <div class="right-panel">
+            <!-- Cheers'Bro Team Box -->
+            <div class="team-box cheers-box">
+                <div class="team-logo-container">
+                    <img src="assets/img/cheers-bro-logo-no-bg.png" alt="Cheers'Bro Logo" class="team-logo">
+                </div>
+                <div class="team-info">
+                    <h3 class="team-name">Cheers'Bro</h3>
+                    <p class="team-founded">Fondé en 2019</p>
+                    <p class="team-description">Notre objectif est clair : rejoindre l'élite du championnat, viser toujours plus haut, et hisser les Cheers' Bros parmi les meilleures équipes de Genève.</p>
+                    <a href="#cheers-bro" class="team-more-link">More →</a>
+                </div>
+            </div>
+
+            <!-- Bros'N'Darts Team Box -->
+            <div class="team-box bros-box">
+                <div class="team-logo-container">
+                    <img src="assets/img/logo brosndarts 3.png" alt="Bros'N'Darts Logo" class="team-logo">
+                </div>
+                <div class="team-info">
+                    <h3 class="team-name">Bros'N'Darts</h3>
+                    <p class="team-founded">Lancés en 2025</p>
+                    <p class="team-description">Les Bros'n'darts sont une jeune équipe enthousiaste, constituée majoritairement de joueurs amateurs, mais animée par la même passion que leurs aînés.</p>
+                    <a href="#bros-n-darts" class="team-more-link">More →</a>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- Team Sections -->
+     <section id="cheers-bro" class="team-section cheers-section">
+         <div class="team-content">
+             <div class="team-header-section">
+                 <img src="assets/img/cheers-bro-logo-no-bg.png" alt="Cheers'Bro Logo" class="team-logo" id="teamLogo">
+                 <h2>Cheers'Bro</h2>
+                 <p class="team-subtitle">Fondée en 2019</p>
+             </div>
+             <div class="team-details">
+                 <div class="team-story">
+                     <h3>Notre Histoire</h3>
+                     <p>L'équipe des Cheers'Bros est née dans l'ambiance chaleureuse du <strong>Pickwick Pub</strong>, rue de Lausanne, à Genève. Depuis 2019, nous cultivons l'esprit d'équipe et la passion du jeu de fléchettes.</p>
+                 </div>
+                 <div class="team-goals">
+                     <h3>Nos Objectifs</h3>
+                     <p>Rejoindre l'élite du championnat, viser toujours plus haut, et hisser les Cheers' Bros parmi les meilleures équipes de Genève.</p>
+                 </div>
+                 <div class="team-location">
+                     <h3>Où nous trouver</h3>
+                     <p><strong>Pickwick Pub</strong><br>Rue de Lausanne, Genève</p>
+                 </div>
+             </div>
+         </div>
+     </section>
+
+     <section id="bros-n-darts" class="team-section">
+         <div class="team-content">
+             <div class="team-header-section">
+                <img src="assets/img/logo brosndarts 3.png" alt="Cheers'Bro Logo" class="team-logo" id="teamLogo">
+                 <h2>Bros'N'Darts</h2>
+                 <p class="team-subtitle">Lancés en 2025</p>
+             </div>
+             <div class="team-details">
+                 <div class="team-story">
+                     <h3>Notre Histoire</h3>
+                     <p>Fraîchement lancés en 2025, les Bros'n'darts sont une jeune équipe enthousiaste, constituée majoritairement de joueurs amateurs, mais animée par la même passion que leurs aînés.</p>
+                 </div>
+                 <div class="team-goals">
+                     <h3>Notre Mission</h3>
+                     <p>Développer nos compétences, créer des liens forts entre coéquipiers et représenter fièrement notre club dans la Geneva Darts League.</p>
+                 </div>
+                 <div class="team-location">
+                     <h3>Où nous trouver</h3>
+                     <p><strong>Crowned Eagle</strong><br>Rue de Fribourg, Genève</p>
+                 </div>
+             </div>
+         </div>
+     </section>
+
+     <section id="partners" class="team-section">
+        <div class="team-content">
+            <div class="team-header-section">
+               
+                <h2>Partenaires</h2>
+                <p class="team-subtitle">Nous sommes reconnaissants d'être soutenus par</p>
+            </div>
+            <div class="team-details">
+                <div class="team-story">
+                    <img src="assets/img/sponsors/mr-pickwicks.png" alt="Pickwick Pub Logo" class="team-logo" id="pickwick-logo">
+                </div>
+                <div class="team-story">
+                    <img src="assets/img/sponsors/crowned-eagle-logo.png" alt="crowned eagle pub logo" class="team-logo" id="crowned-eagle-logo">
+                </div>
+                <div class="team-story">
+                    <img src="assets/img/sponsors/ai-concept-logo.png" alt="ai concept logo" class="team-logo" id="ai-concept-logo">
+                </div>
+
+                <div class="team-story">
+                    <img src="assets/img/sponsors/chefs-de-secteurs-logo.png" alt="chefs de secteurs logo" class="team-logo" id="chefs-de-secteurs-logo">
+                </div>
+
+                <div class="team-story">
+                    <img src="assets/img/sponsors/chefs-de-secteurs-logo.png" alt="chefs de secteurs logo" class="team-logo" id="chefs-de-secteurs-logo">
+                </div>
+
+                <div class="team-story">
+                    <img src="assets/img/sponsors/mtnr-concept-logo.png" alt="MTNR Concept logo" class="team-logo" id="mtnr-logo">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+                 <script>
+        // Header logo click to scroll to top
+        document.querySelector('.logo').addEventListener('click', function(e) {
+            e.preventDefault();
+            document.getElementById('home').scrollIntoView({ 
+                behavior: 'smooth' 
+            });
+        });
+
+        // Smooth scrolling for team buttons
+        document.querySelector('a[href="#cheers-bro"]').addEventListener('click', function(e) {
+            e.preventDefault();
+            document.getElementById('cheers-bro').scrollIntoView({ 
+                behavior: 'smooth' 
+            });
+        });
+
+        document.querySelector('a[href="#bros-n-darts"]').addEventListener('click', function(e) {
+            e.preventDefault();
+            document.getElementById('bros-n-darts').scrollIntoView({ 
+                behavior: 'smooth' 
+            });
+        });
+
+        document.querySelector('a[href="#partners"]').addEventListener('click', function(e) {
+            e.preventDefault();
+            document.getElementById('partners').scrollIntoView({ 
+                behavior: 'smooth' 
+            });
+        });
+
+        // Smooth scrolling for team more links
+        document.querySelectorAll('.team-more-link').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({ 
+                        behavior: 'smooth' 
+                    });
+                }
+            });
+        });
+
+        // Button interactions
+        document.querySelectorAll('.btn').forEach(btn => {
+            btn.addEventListener('mouseover', function() {
+                this.style.transform = 'translateY(-3px)';
+            });
+            
+            btn.addEventListener('mouseout', function() {
+                this.style.transform = 'translateY(0)';
+            });
+        });
+
+        // Header color change on scroll
+        const header = document.querySelector('.logo');
+        const cheersBroSection = document.getElementById('cheers-bro');
+        const brosNDartsSection = document.getElementById('bros-n-darts');
+        
+        function checkHeaderColor() {
+            const scrollY = window.scrollY;
+            const headerHeight = 100;
+            
+            const cheersBroRect = cheersBroSection.getBoundingClientRect();
+            const brosNDartsRect = brosNDartsSection.getBoundingClientRect();
+            
+            // Check which section is currently in the header area
+            const cheersBroTop = cheersBroRect.top + scrollY;
+            const cheersBroBottom = cheersBroRect.bottom + scrollY;
+            const brosNDartsTop = brosNDartsRect.top + scrollY;
+            
+            const currentPosition = scrollY + headerHeight;
+            
+            // If we're in the Cheers'Bro section (dark background)
+            if (currentPosition >= cheersBroTop && currentPosition < brosNDartsTop) {
+                header.classList.add('white-text');
+            } else {
+                // For all other sections (light backgrounds)
+                header.classList.remove('white-text');
+            }
+        }
+
+        // Check on scroll
+        window.addEventListener('scroll', checkHeaderColor);
+        
+        // Check on page load
+        checkHeaderColor();
+    </script>
 </body>
 </html>
