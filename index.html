@@ -1,10 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cheers Bro & Bros'n'Darts.</title>
+    
+    <!-- Primary Meta Tags -->
+    <title>Cheers'Bro & Bros'N'Darts - Équipes de Fléchettes Genève</title>
+    <meta name="title" content="Cheers'Bro & Bros'N'Darts - Équipes de Fléchettes Genève">
+    <meta name="description" content="Deux équipes de fléchettes passionnées de Genève. Cheers'Bro (fondé en 2019) et Bros'N'Darts (lancés en 2025) participent au championnat genevois de fléchettes.">
+    <meta name="keywords" content="fléchettes, darts, Genève, Geneva, championnat, équipe, sport, Cheers'Bro, Bros'N'Darts, Pickwick Pub, Crowned Eagle">
+    <meta name="author" content="E. Maguire, Antarctic Design">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="French">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="Cheers'Bro & Bros'N'Darts - Équipes de Fléchettes Genève">
+    <meta property="og:description" content="Deux équipes de fléchettes passionnées de Genève. Une passion commune pour le championnat genevois de fléchettes.">
+    <meta property="og:image" content="assets/img/cheers-bro-logo-no-bg.png">
+    <meta property="og:locale" content="fr_CH">
+    <meta property="og:site_name" content="Cheers'Bro & Bros'N'Darts">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="">
+    <meta property="twitter:title" content="Cheers'Bro & Bros'N'Darts - Équipes de Fléchettes Genève">
+    <meta property="twitter:description" content="Deux équipes de fléchettes passionnées de Genève. Une passion commune pour le championnat genevois de fléchettes.">
+    <meta property="twitter:image" content="assets/img/cheers-bro-logo-no-bg.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/cheers-bro-logo-no-bg.png">
+    <link rel="apple-touch-icon" href="assets/img/cheers-bro-logo-no-bg.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="">
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Stylesheet -->
     <link href="assets/css/styles.css" rel="stylesheet">
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Cheers'Bro & Bros'N'Darts",
+      "description": "Deux équipes de fléchettes passionnées de Genève participant au championnat genevois de fléchettes",
+      "url": "",
+      "logo": "assets/img/cheers-bro-logo-no-bg.png",
+      "location": {
+        "@type": "Place",
+        "name": "Genève, Suisse",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Genève",
+          "addressCountry": "CH"
+        }
+      },
+      "sport": "Darts",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Geneva Darts League",
+        "url": "https://www.genevadarts.ch"
+      },
+      "subOrganization": [
+        {
+          "@type": "SportsTeam",
+          "name": "Cheers'Bro",
+          "sport": "Darts",
+          "foundingDate": "2019",
+          "description": "Notre objectif est clair : rejoindre l'élite du championnat, viser toujours plus haut, et hisser les Cheers' Bros parmi les meilleures équipes de Genève.",
+          "location": {
+            "@type": "Place",
+            "name": "Pickwick Pub",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Rue de Lausanne",
+              "addressLocality": "Genève",
+              "addressCountry": "CH"
+            }
+          },
+          "logo": "assets/img/cheers-bro-logo-no-bg.png"
+        },
+        {
+          "@type": "SportsTeam",
+          "name": "Bros'N'Darts",
+          "sport": "Darts",
+          "foundingDate": "2025",
+          "description": "Les Bros'n'darts sont une jeune équipe enthousiaste, constituée majoritairement de joueurs amateurs, mais animée par la même passion que leurs aînés.",
+          "location": {
+            "@type": "Place",
+            "name": "Crowned Eagle",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Rue de Fribourg",
+              "addressLocality": "Genève",
+              "addressCountry": "CH"
+            }
+          },
+          "logo": "assets/img/logo brosndarts 3.png"
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
     <div class="header">
@@ -29,29 +131,59 @@
         </div>
 
         <div class="right-panel">
-            <!-- Cheers'Bro Team Box -->
-            <div class="team-box cheers-box">
-                <div class="team-logo-container">
-                    <img src="assets/img/cheers-bro-logo-no-bg.png" alt="Cheers'Bro Logo" class="team-logo">
+            <!-- Desktop Team Boxes -->
+            <div class="desktop-team-boxes">
+                <!-- Cheers'Bro Team Box -->
+                <div class="team-box cheers-box" data-target="#cheers-bro">
+                    <div class="team-logo-container">
+                        <img src="assets/img/cheers-bro-logo-no-bg.png" alt="Cheers'Bro Logo" class="team-logo">
+                    </div>
+                    <div class="team-info">
+                        <h3 class="team-name">Cheers'Bro</h3>
+                        <p class="team-founded">Fondé en 2019</p>
+                        <p class="team-description">Notre objectif est clair : rejoindre l'élite du championnat, viser toujours plus haut, et hisser les Cheers' Bros parmi les meilleures équipes de Genève.</p>
+                    </div>
                 </div>
-                <div class="team-info">
-                    <h3 class="team-name">Cheers'Bro</h3>
-                    <p class="team-founded">Fondé en 2019</p>
-                    <p class="team-description">Notre objectif est clair : rejoindre l'élite du championnat, viser toujours plus haut, et hisser les Cheers' Bros parmi les meilleures équipes de Genève.</p>
-                    <a href="#cheers-bro" class="team-more-link">Plus d'infos →</a>
+
+                <!-- Bros'N'Darts Team Box -->
+                <div class="team-box bros-box" data-target="#bros-n-darts">
+                    <div class="team-logo-container">
+                        <img src="assets/img/logo brosndarts 3.png" alt="Bros'N'Darts Logo" class="team-logo">
+                    </div>
+                    <div class="team-info">
+                        <h3 class="team-name">Bros'N'Darts</h3>
+                        <p class="team-founded">Lancés en 2025</p>
+                        <p class="team-description">Les Bros'n'darts sont une jeune équipe enthousiaste, constituée majoritairement de joueurs amateurs, mais animée par la même passion que leurs aînés.</p>
+                    </div>
                 </div>
             </div>
 
-            <!-- Bros'N'Darts Team Box -->
-            <div class="team-box bros-box">
-                <div class="team-logo-container">
-                    <img src="assets/img/logo brosndarts 3.png" alt="Bros'N'Darts Logo" class="team-logo">
+            <!-- Mobile Team Cards -->
+            <div class="mobile-team-cards">
+                <!-- Cheers'Bro Mobile Card -->
+                <div class="mobile-team-card cheers-mobile-card" data-target="#cheers-bro">
+                    <div class="mobile-logo">
+                        <img src="assets/img/cheers-bro-logo-no-bg.png" alt="Cheers'Bro Logo">
+                    </div>
+                    <div class="mobile-content">
+                        <h3 class="mobile-team-name">Cheers'Bro</h3>
+                        <p class="mobile-team-founded">Fondé en 2019</p>
+                        <p class="mobile-team-description">Notre objectif est clair : rejoindre l'élite du championnat, viser toujours plus haut, et hisser les Cheers' Bros parmi les meilleures équipes de Genève.</p>
+                    </div>
+                    <a href="#cheers-bro" class="mobile-arrow">→</a>
                 </div>
-                <div class="team-info">
-                    <h3 class="team-name">Bros'N'Darts</h3>
-                    <p class="team-founded">Lancés en 2025</p>
-                    <p class="team-description">Les Bros'n'darts sont une jeune équipe enthousiaste, constituée majoritairement de joueurs amateurs, mais animée par la même passion que leurs aînés.</p>
-                    <a href="#bros-n-darts" class="team-more-link">Plus d'infos →</a>
+
+                <!-- Bros'N'Darts Mobile Card -->
+                <div class="mobile-team-card bros-mobile-card" data-target="#bros-n-darts">
+                    <div class="mobile-logo">
+                        <img src="assets/img/logo brosndarts 3.png" alt="Bros'N'Darts Logo">
+                    </div>
+                    <div class="mobile-content">
+                        <h3 class="mobile-team-name">Bros'N'Darts</h3>
+                        <p class="mobile-team-founded">Lancés en 2025</p>
+                        <p class="mobile-team-description">Les Bros'n'darts sont une jeune équipe enthousiaste, constituée majoritairement de joueurs amateurs, mais animée par la même passion que leurs aînés.</p>
+                    </div>
+                    <a href="#bros-n-darts" class="mobile-arrow">→</a>
                 </div>
             </div>
         </div>
@@ -174,8 +306,27 @@
             });
         });
 
-        // Smooth scrolling for team more links
-        document.querySelectorAll('.team-more-link').forEach(link => {
+        // Make entire team boxes clickable
+        document.querySelectorAll('.team-box, .mobile-team-card').forEach(box => {
+            box.addEventListener('click', function(e) {
+                // Don't trigger if clicking on the "More" link or arrow (let them handle their own click)
+                if (e.target.classList.contains('team-more-link') || e.target.classList.contains('mobile-arrow')) {
+                    return;
+                }
+                
+                e.preventDefault();
+                const targetId = this.getAttribute('data-target').substring(1);
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({ 
+                        behavior: 'smooth' 
+                    });
+                }
+            });
+        });
+
+        // Smooth scrolling for team more links (desktop and mobile)
+        document.querySelectorAll('.team-more-link, .mobile-arrow').forEach(link => {
             link.addEventListener('click', function(e) {
                 e.preventDefault();
                 const targetId = this.getAttribute('href').substring(1);
